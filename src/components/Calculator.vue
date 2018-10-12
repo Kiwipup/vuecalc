@@ -66,7 +66,7 @@ export default {
   },
 
   setPrevious() {
-  this.previous = current;
+  this.previous = this.current;
   this.operatorClicked = true;
   },
 
